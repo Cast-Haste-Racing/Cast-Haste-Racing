@@ -14,10 +14,6 @@
     background-image: url(bumper.png);
 }
 
-.ds4.white .touchpad.pressed {
-    background-image: url(ps4-white-assets/touchpad.svgz);
-}
-
 .ds4.white .back, .ds4 .start {
     background-image: url(start.png);
 }
@@ -32,4 +28,53 @@
 
 .ds4.white .face {
     background-image: url(dpad.png);
+}
+
+.ds4.white .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
+.ds4.white .face.up, .ds4 .face.down {
+    width: 36px;
+    height: 52px;
+}
+
+.ds4.white .face.left, .ds4 .face.right {
+    width: 52px;
+    height: 36px;
+}
+
+.ds4.white .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.ds4.white .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+
+.ds4.white .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+
+.ds4.white .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.ds4.white .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 52px;
 }
